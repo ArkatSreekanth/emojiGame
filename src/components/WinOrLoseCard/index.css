@@ -1,0 +1,74 @@
+.win-or-loss-bg-container {
+  font-family: 'Roboto';
+  background-color: #d0bce6;
+  border: 3px solid #ffffff30;
+  padding: 24px;
+  margin: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+  height: 75vh;
+}
+
+.play-again-btn {
+  color: #3d3d3d;
+  font-weight: 900;
+  border: 0px;
+  border-radius: 24px;
+  padding: 18px;
+  cursor: pointer;
+  background-color: #ffce27;
+  width: 140px;
+}
+
+.stats-card {
+  text-align: center;
+}
+
+.score-text {
+  color: #6a59ff;
+  font-weight: 900;
+  font-size: 34px;
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.best-score-text {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.game-status {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.game-over-img {
+  width: 50%;
+  max-width: 320px;
+}
+
+@media (min-width: 768px) {
+  .win-or-loss-bg-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .game-over-img {
+    order: 1;
+  }
+
+  .game-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .game-status {
+    font-size: 52px;
+  }
+}

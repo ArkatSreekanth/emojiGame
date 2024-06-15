@@ -1,0 +1,34 @@
+.emoji-nav-bar {
+  background-color: #b6b0ed;
+  min-height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar-img {
+  width: 15%;
+}
+
+.emoji-game-heading {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.score-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.score {
+  margin-left: 12px;
+}

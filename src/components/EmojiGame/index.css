@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.emoji-bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 91vh;
+  padding: 18px;
+}
+
+.emoji-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px;
+}
